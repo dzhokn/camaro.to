@@ -1,5 +1,5 @@
 /**
- * BUMBLEBEE — Chevrolet Camaro 6.2 V8 2SS ZL1
+ * BUMBLEBEE - Chevrolet Camaro 6.2 V8 2SS ZL1
  * Scroll reveals, lightbox, video autoplay, sticky CTA, countUp
  */
 
@@ -210,7 +210,7 @@
     items.forEach((el, i) => {
       el.setAttribute('role', 'button');
       el.setAttribute('tabindex', '0');
-      el.setAttribute('aria-label', (el.querySelector('img')?.alt || '') + ' — натисни за увеличение');
+      el.setAttribute('aria-label', (el.querySelector('img')?.alt || '') + ' - натисни за увеличение');
 
       function activate() { openLightbox(i); }
 
