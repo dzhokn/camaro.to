@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0A0A0A">
+  <title>BUMBLEBEE | Camaro 6.2 V8 2SS ZL1</title>
+
+  <!-- SEO -->
+  <meta name="description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 визуален пакет · Borla · €25 000 · София">
+  <link rel="canonical" href="https://camaro.to/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://camaro.to/">
+  <meta property="og:title" content="BUMBLEBEE | Chevrolet Camaro 6.2 V8 2SS ZL1">
+  <meta property="og:description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 · Borla · €25 000">
+  <meta property="og:image" content="https://camaro.to/img/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Жълт Chevrolet Camaro 2SS с ZL1 пакет - фронтален изглед">
+  <meta property="og:site_name" content="BUMBLEBEE">
+  <meta property="og:locale" content="bg_BG">
+
+  <!-- Twitter/X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BUMBLEBEE | Chevrolet Camaro 6.2 V8 2SS ZL1">
+  <meta name="twitter:description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 · Borla · €25 000">
+  <meta name="twitter:image" content="https://camaro.to/img/og-image.jpg">
+  <meta name="twitter:image:alt" content="Жълт Chevrolet Camaro 2SS с ZL1 пакет - фронтален изглед">
+
+  <!-- Pinterest -->
+  <meta name="pinterest-rich-pin" content="true">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+
+  <!-- Preload hero image (desktop) -->
+  <link rel="preload" as="image" type="image/webp"
+        imagesrcset="img/hero/hero_640w.webp 640w, img/hero/hero_960w.webp 960w, img/hero/hero_1280w.webp 1280w, img/hero/hero_1920w.webp 1920w"
+        imagesizes="100vw"
+        media="(min-width: 769px)">
+  <!-- Preload hero image (mobile) -->
+  <link rel="preload" as="image" type="image/webp"
+        imagesrcset="img/hero/hero_mobile_640w.webp 640w, img/hero/hero_mobile_960w.webp 960w, img/hero/hero_mobile_1280w.webp 1280w, img/hero/hero_mobile_1662w.webp 1662w"
+        imagesizes="100vw"
+        media="(max-width: 768px)">
+
+  <!-- Preload critical fonts -->
+  <link rel="preload" as="font" href="fonts/teko-700.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="fonts/barlow-400.woff2" type="font/woff2" crossorigin>
+
+  <style>
+    /* ── Font Faces ─────────────────────────────────────── */
+    @font-face {
+      font-family: 'Teko';
+      src: url('fonts/teko-400.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Teko';
+      src: url('fonts/teko-700.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Barlow';
+      src: url('fonts/barlow-400.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Barlow';
+      src: url('fonts/barlow-600.woff2') format('woff2');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /* ── Reset & Base ──────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --yellow: #FFD100;
+      --yellow-dim: #B8960A;
+      --red: #FF2D2D;
+      --bg: #0A0A0A;
+      --surface: #141414;
+      --surface-light: #1E1E1E;
+      --text: #E8E8E8;
+      --text-muted: #888;
+      --text-dim: #555;
+      --font-display: 'Teko', 'Impact', sans-serif;
+      --font-body: 'Barlow', 'Segoe UI', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      font-weight: 400;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img { display: block; max-width: 100%; height: auto; }
+
+    /* ── Skip Link ─────────────────────────────────────── */
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 16px;
+      z-index: 10000;
+      padding: 8px 16px;
+      background: var(--yellow);
+      color: #000;
+      text-decoration: none;
+      border-radius: 0 0 4px 4px;
+      font-weight: 600;
+    }
+    .skip-link:focus { top: 0; }
+
+    /* ── Preloader ─────────────────────────────────────── */
+    .preloader {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.6s ease;
+    }
+    .preloader--hidden { opacity: 0; pointer-events: none; }
+    .preloader__spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--text-dim);
+      border-top-color: var(--yellow);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Scroll Reveal ─────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── Image Blur-Up ─────────────────────────────────── */
+    .img-wrap {
+      position: relative;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .blur-up {
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    .blur-up.loaded { opacity: 1; }
+
+    /* ── Section Shared ────────────────────────────────── */
+    .section {
+      padding: 100px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section--wide {
+      max-width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      content-visibility: auto;
+      contain-intrinsic-size: auto 800px;
+    }
+    .section__label {
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--yellow);
+      margin-bottom: 12px;
+    }
+    .section__title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 700;
+      line-height: 1.05;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+    }
+    .section__text {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    /* ── Warning Stripe Divider ────────────────────────── */
+    .warning-stripe {
+      height: 4px;
+      background: repeating-linear-gradient(
+        135deg,
+        var(--yellow) 0 10px,
+        #111 10px 20px
+      );
+    }
+
+    /* ── S1: Hero ──────────────────────────────────────── */
+    .hero {
+      position: relative;
+      height: 100vh;
+      min-height: 500px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .hero__img-wrap {
+      position: absolute;
+      inset: 0;
+    }
+    .hero__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      will-change: transform;
+      transform: scale(1.05);
+    }
+    .hero__img-wrap--mobile { display: none; }
+    .hero__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(10,10,10,0.95) 0%,
+        rgba(10,10,10,0.5) 35%,
+        rgba(10,10,10,0.15) 60%,
+        transparent 100%
+      );
+    }
+    .hero__content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding-bottom: 80px;
+    }
+    .hero__title {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 10vw, 7rem);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      line-height: 0.95;
+      margin-bottom: 16px;
+      color: var(--yellow);
+      text-shadow: 0 2px 40px rgba(255,209,0,0.3), 0 4px 60px rgba(0,0,0,0.6);
+    }
+    .hero__subtitle {
+      font-family: var(--font-body);
+      font-size: clamp(0.8rem, 1.6vw, 1rem);
+      font-weight: 400;
+      color: var(--text-muted);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .hero__subtitle span {
+      color: var(--text-dim);
+      margin: 0 6px;
+    }
+    .hero__scroll {
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      opacity: 0.5;
+      transition: opacity 0.4s ease;
+      animation: bob 2s ease-in-out infinite;
+    }
+    .hero__scroll svg {
+      width: 28px;
+      height: 28px;
+      stroke: var(--yellow);
+      fill: none;
+      stroke-width: 2.5;
+    }
+    @keyframes bob {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(8px); }
+    }
+
+    /* ── S2: Prologue ──────────────────────────────────── */
+    .prologue {
+      text-align: center;
+      padding: 120px 24px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .prologue__quote {
+      font-size: clamp(1.2rem, 2.8vw, 1.7rem);
+      font-weight: 400;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+    .prologue__quote em {
+      color: var(--yellow);
+      font-style: normal;
+    }
+
+    /* ── Panel (full-bleed image) ─────────────────────── */
+    .panel {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2px;
+    }
+    .panel .img-wrap { width: 100%; }
+    .panel__img {
+      width: 100%;
+      display: block;
+    }
+    .panel__caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 60px 40px 40px;
+      background: linear-gradient(to top, rgba(10,10,10,0.85) 0%, transparent 100%);
+    }
+    .panel__caption-title {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .panel__caption-text {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* ── S3: Engine — Split Layout ────────────────────── */
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      min-height: 60vh;
+    }
+    .split--reverse .split__content { order: -1; }
+    .split__img {
+      width: 100%;
+      height: 100%;
+      min-height: 400px;
+    }
+    .split__img .img-wrap { height: 100%; }
+    .split__img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .split__content {
+      padding: 60px 48px;
+    }
+
+    /* Spec Numbers */
+    .spec-numbers {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin: 32px 0;
+    }
+    .spec-num {
+      text-align: center;
+    }
+    .spec-num__value {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 8vw, 5rem);
+      font-weight: 700;
+      line-height: 1;
+      color: var(--yellow);
+    }
+    .spec-num__value small {
+      font-size: 0.4em;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+    .spec-num__label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    /* ── S4: ZL1 Vision — Detail Grid ────────────────── */
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+    }
+    .detail-grid__item {
+      overflow: hidden;
+    }
+    .detail-grid__item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Feature List */
+    .feature-list {
+      list-style: none;
+      margin-top: 24px;
+    }
+    .feature-list li {
+      font-size: 0.95rem;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+    .feature-list li::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--yellow);
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+
+    /* ── S6: Cinema (Video) ──────────────────────────── */
+    .cinema {
+      position: relative;
+      background: #000;
+      overflow: hidden;
+      content-visibility: auto;
+      contain-intrinsic-size: auto 600px;
+    }
+    .cinema__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .cinema__video {
+      width: 100%;
+      display: block;
+    }
+    .cinema__play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 72px;
+      height: 72px;
+      background: rgba(255,209,0,0.9);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s, background 0.2s;
+      z-index: 2;
+    }
+    .cinema__play:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+      background: var(--yellow);
+    }
+    .cinema__play svg {
+      width: 28px;
+      height: 28px;
+      fill: #000;
+      margin-left: 4px;
+    }
+    .cinema__grain {
+      position: absolute;
+      inset: 0;
+      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABhGlDQ1BJQ0MgcHJvZmlsZQAAeJx9kT1Iw0AYht+mSkUqDhYRcchQHcSCqIijVqEIFUKt0KqDyaV/0KQhSXFxFFwLDv4sVh1cnHV1cBUEwR8QZwcnRRcp8buk8CLGg4d7eO97X+6+A4RmlWlWzzig6m0jk0xI2dyqFHhFABGEMQJJZpY5K0ULXO9Xj7h4/0uyrP86/oUfMWAT4ReY7pxk3iDePpTc/D+8TirSwpfk88YdIFiR+5rnj85VLkWeCZMTObniOOE4ulDpY7mJUNlXiKOKKqG+ULOZcVzluc1WqNde/kL+TL1dZTnNICSxiCRJEKKijgkqsBGnVSbGQof2kh3+k6ZfIS0VWDTBxLqEKFIvB/8Hv2drFiYn3KRwEuh+se2PYSBQC7Sa1/r9GsKa/TBV6B3ibe/RoCere5vOa8PfnMA9Oedd+gBhKcpS+DkpN4H6KfadN4gF') repeat;
+      mix-blend-mode: overlay;
+      opacity: 0.03;
+      pointer-events: none;
+    }
+
+    /* ── S7: Night section ────────────────────────────── */
+    .night-section {
+      background: #000;
+    }
+
+    /* ── S8: Facts ────────────────────────────────────── */
+    .facts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-top: 40px;
+    }
+    .facts-col h3 {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--yellow);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--yellow-dim);
+    }
+    .facts-col dl {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 16px;
+    }
+    .facts-col dt {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .facts-col dd {
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-align: right;
+    }
+    .facts-list {
+      list-style: none;
+    }
+    .facts-list li {
+      font-size: 0.9rem;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .facts-list li::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--yellow);
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+
+    /* ── S9: Gallery Grid ────────────────────────────── */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 4px;
+    }
+    .gallery-grid__item {
+      overflow: hidden;
+      cursor: zoom-in;
+    }
+    .gallery-grid__item img {
+      width: 100%;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .gallery-grid__item:hover img {
+      transform: scale(1.03);
+    }
+
+    /* ── S10: Price / CTA ────────────────────────────── */
+    .price {
+      text-align: center;
+      padding: 100px 24px 120px;
+      position: relative;
+      content-visibility: auto;
+      contain-intrinsic-size: auto 500px;
+    }
+    .price__amount {
+      font-family: var(--font-display);
+      font-size: clamp(4rem, 12vw, 8rem);
+      font-weight: 700;
+      color: var(--yellow);
+      line-height: 1;
+      margin-bottom: 32px;
+    }
+    .price__amount small {
+      font-size: 0.35em;
+      vertical-align: super;
+      color: var(--text-muted);
+    }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 48px;
+      background: var(--yellow);
+      color: #000;
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(255,209,0,0.3);
+    }
+    .cta-btn svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+    .price__phone {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-top: 20px;
+      letter-spacing: 0.05em;
+    }
+    .price__secondary {
+      display: inline-block;
+      margin-top: 24px;
+      font-size: 0.9rem;
+      color: var(--yellow-dim);
+      text-decoration: none;
+      border-bottom: 1px solid var(--yellow-dim);
+      transition: color 0.2s;
+    }
+    .price__secondary:hover {
+      color: var(--yellow);
+    }
+
+    /* ── Sticky CTA (mobile) ─────────────────────────── */
+    .sticky-cta {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 9000;
+      background: var(--yellow);
+      padding: 14px 24px;
+      padding-bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+      display: none;
+    }
+    .sticky-cta--visible {
+      transform: translateY(0);
+    }
+    .sticky-cta__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #000;
+      text-decoration: none;
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .sticky-cta__link svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    /* ── Footer ────────────────────────────────────────── */
+    footer {
+      padding: 60px 24px;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+    .footer__disclaimer {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* ── Lightbox ──────────────────────────────────────── */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 10000;
+      background: rgba(0,0,0,0.95);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .lightbox.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .lightbox__img {
+      max-width: 92vw;
+      max-height: 90vh;
+      object-fit: contain;
+      border-radius: 2px;
+    }
+    .lightbox__close {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      cursor: pointer;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: background 0.2s;
+    }
+    .lightbox__close:hover,
+    .lightbox__close:focus-visible {
+      background: rgba(255,255,255,0.1);
+      outline: 2px solid var(--yellow);
+    }
+
+    .lightbox__nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.08);
+      border: none;
+      color: #fff;
+      font-size: 2.5rem;
+      cursor: pointer;
+      width: 48px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .lightbox__nav:hover,
+    .lightbox__nav:focus-visible {
+      background: rgba(255,255,255,0.18);
+      outline: 2px solid var(--yellow);
+    }
+    .lightbox__nav--prev { left: 12px; }
+    .lightbox__nav--next { right: 12px; }
+
+    [data-lightbox] { cursor: zoom-in; }
+
+    /* ── Section modifiers ────────────────────────────── */
+    .section--compact { padding-bottom: 32px; }
+
+    /* ── Accent line ─────────────────────────────────── */
+    .accent-line {
+      width: 40px;
+      height: 3px;
+      background: var(--yellow);
+      margin-bottom: 20px;
+    }
+
+    /* ── Reduced Motion ────────────────────────────────── */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+      .blur-up { opacity: 1; }
+      .hero__img { transform: none !important; }
+      .preloader { display: none; }
+    }
+
+    /* ── Responsive: Tablet ──────────────────────────── */
+    @media (max-width: 1024px) {
+      .split__content {
+        padding: 40px 32px;
+      }
+      .detail-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* ── Responsive: Mobile ──────────────────────────── */
+    @media (max-width: 768px) {
+      .section { padding: 48px 16px; }
+      .prologue { padding: 64px 16px; }
+
+      .hero {
+        height: auto;
+        min-height: 0;
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .hero__img-wrap--desktop { display: none; }
+      .hero__img-wrap--mobile {
+        display: block;
+        position: relative;
+      }
+      .hero__img {
+        object-fit: contain;
+        object-position: center center;
+        position: relative;
+        height: auto;
+        transform: none;
+      }
+      .hero__overlay { display: none; }
+      .hero__content {
+        position: relative;
+        padding: 32px 20px 40px;
+        text-align: center;
+      }
+      .hero__title {
+        font-size: clamp(2.5rem, 12vw, 4.5rem);
+      }
+      .hero__subtitle {
+        font-size: 0.7rem;
+        letter-spacing: 0.1em;
+      }
+
+      .prologue__quote {
+        font-size: 1.1rem;
+        line-height: 1.7;
+      }
+
+      .section__title { font-size: 1.8rem; }
+      .section__text { font-size: 0.95rem; }
+
+      .split {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      .split--reverse .split__content { order: 0; }
+      .split__img {
+        min-height: 220px;
+        max-height: 55vh;
+      }
+      .split__img img { max-height: 55vh; }
+      .split__content { padding: 28px 16px; }
+
+      .spec-numbers { gap: 16px; }
+      .spec-num__value { font-size: clamp(2.5rem, 10vw, 4rem); }
+
+      .detail-grid { grid-template-columns: 1fr; }
+
+      .facts-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .facts-col dl { gap: 8px 12px; }
+      .facts-col dt, .facts-col dd { font-size: 0.8rem; }
+
+      .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+      }
+
+      .panel__caption { padding: 32px 16px 20px; }
+      .panel__caption-title { font-size: 1rem; }
+      .panel__caption-text { font-size: 0.8rem; }
+
+      .price__amount { font-size: clamp(3rem, 14vw, 5rem); }
+      .cta-btn { font-size: 1.2rem; padding: 16px 36px; }
+
+      .sticky-cta { display: block; }
+
+      footer { padding: 40px 16px; }
+      .footer__disclaimer { font-size: 0.68rem; }
+
+      /* Disable grain on mobile for perf */
+      .cinema__grain { display: none; }
+    }
+
+    /* ── Responsive: Small phones ─────────────────────── */
+    @media (max-width: 380px) {
+      .hero__title { font-size: 2.5rem; }
+      .hero__subtitle { font-size: 0.6rem; }
+      .section__title { font-size: 1.5rem; }
+      .prologue__quote { font-size: 1rem; }
+      .spec-num__value { font-size: 2.5rem; }
+      .gallery-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ── Touch devices: disable parallax ───────────────── */
+    @media (hover: none) {
+      .hero__img {
+        transform: none !important;
+        will-change: auto;
+      }
+    }
+  </style>
+
+  <!-- Schema.org Vehicle JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Vehicle",
+    "name": "Chevrolet Camaro 6.2 V8 2SS ZL1",
+    "brand": {"@type": "Brand", "name": "Chevrolet"},
+    "model": "Camaro",
+    "vehicleModelDate": "2017",
+    "color": "Bright Yellow",
+    "mileageFromOdometer": {
+      "@type": "QuantitativeValue",
+      "value": "90000",
+      "unitCode": "KMT"
+    },
+    "fuelType": "Gasoline",
+    "vehicleTransmission": "Automatic",
+    "vehicleEngine": {
+      "@type": "EngineSpecification",
+      "name": "LT1 6.2L V8"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "25000",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Към съдържанието</a>
+
+  <!-- Preloader -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__spinner"></div>
+  </div>
+
+  <noscript>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; }
+      .blur-up { opacity: 1 !important; }
+      .preloader { display: none !important; }
+    </style>
+  </noscript>
+
+  <main id="main">
+
+    <!-- ═══ S1: HERO ═══ -->
+    <section class="hero">
+      <!-- Desktop hero -->
+      <div class="hero__img-wrap img-wrap hero__img-wrap--desktop" style="background-image:url('data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoUAAsAPzmGulQvKSWjMAgB4CcJZQC7ACHYPqY8qmbAAAD+sjrrCBjS4H4alevg74pPWR7WbE3BuUJx0bg+Jgfsb/N9iykYXRWiQBErIAA=')">
+        <picture>
+          <source type="image/webp"
+                  srcset="img/hero/hero_640w.webp 640w, img/hero/hero_960w.webp 960w, img/hero/hero_1280w.webp 1280w, img/hero/hero_1920w.webp 1920w"
+                  sizes="100vw">
+          <img class="hero__img blur-up"
+               src="img/hero/hero_1920w.jpg"
+               alt="Жълт Chevrolet Camaro 2SS отпред, фарове светят, бетонен покрив"
+               width="1920" height="1280"
+               fetchpriority="high">
+        </picture>
+      </div>
+      <!-- Mobile hero -->
+      <div class="hero__img-wrap img-wrap hero__img-wrap--mobile" style="background-image:url('data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAwCdASoPABQAPzmEuVOvKKWisAgB4CcJZAAAW9I4gUo1QAD+6nRKX0UIZ65PtgnqD9Dj8QhRacpHTRVKhVsr7q+Hk9Rg7lq7OluiF3QAAA=')">
+        <picture>
+          <source type="image/webp"
+                  srcset="img/hero/hero_mobile_640w.webp 640w, img/hero/hero_mobile_960w.webp 960w, img/hero/hero_mobile_1280w.webp 1280w, img/hero/hero_mobile_1662w.webp 1662w"
+                  sizes="100vw">
+          <img class="hero__img blur-up"
+               src="img/hero/hero_mobile_1662w.jpg"
+               alt="Жълт Chevrolet Camaro 2SS, фронтален изглед, портретен кроп"
+               width="1662" height="2216"
+               fetchpriority="high">
+        </picture>
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">Bumblebee</h1>
+        <p class="hero__subtitle">Chevrolet Camaro 6.2 V8 <span>&middot;</span> 2SS <span>&middot;</span> ZL1</p>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </div>
+    </section>
+
+    <!-- ═══ S2: ПРОЛОГ ═══ -->
+    <section class="prologue reveal">
+      <p class="prologue__quote">Има коли, които просто возят. И има коли, които <em>будят нещо в теб</em>&nbsp;&mdash; при всяко завъртане на ключа, при всяко натискане на газта. Тази е от вторите.</p>
+    </section>
+
+    <!-- Profile rooftop panel -->
+    <div class="section--wide">
+      <div class="panel reveal" data-lightbox="img/gallery/side_city_1920w.webp">
+        <div class="img-wrap" style="background-image:url('data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQAwCdASoUAA4APzmEuVOvKKWisAgB4CcJbAC7IDZCC4Uf4ch9xiAA+joBJ9l1uEGf+STIgAOiLOdduUeNuEA68aSD0UC+fEHTFYmuwOCmiWPNApxWyXsx5pVNZjBTIWvqFiZxNsUPNjK8QXRw/1UjRHgQAAAA')">
+          <picture>
+            <source type="image/webp"
+                    srcset="img/gallery/side_city_640w.webp 640w, img/gallery/side_city_960w.webp 960w, img/gallery/side_city_1280w.webp 1280w, img/gallery/side_city_1920w.webp 1920w"
+                    sizes="100vw">
+            <img class="panel__img blur-up" loading="lazy" decoding="async"
+                 src="img/gallery/side_city_1920w.jpg"
+                 alt="Страничен профил на Camaro, град на фона"
+                 width="1920" height="1280">
+          </picture>
+        </div>
+        <div class="panel__caption">
+          <p class="panel__caption-title">В града</p>
+          <p class="panel__caption-text">Профил, градски пейзаж</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S3: СЪРЦЕТО ═══ -->
+    <section class="section--wide">
+      <div class="split">
+        <div class="split__img">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoUAA0APzmGuVOvKSWisAgB4CcJZgCdACPR8BLu7cK9XOwAAP2hvIHNYChg5IgkzyXOhl5r8ywyhwrTO0e/CHihrvDzDRVTESf01s8AJX8NfZKgDx7dh+iWl4/IoewYAcI2qSDmM1GGDZ9nKqlUAAAA\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/engine_400w.webp 400w, img/gallery/engine_800w.webp 800w, img/gallery/engine_1280w.webp 1280w"
+                      sizes="(max-width: 768px) 100vw, 50vw">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/engine_1280w.jpg"
+                   alt="Моторен отсек — K&N филтър, LT1 капак"
+                   width="1280" height="853">
+            </picture>
+          </div>
+        </div>
+        <div class="split__content reveal">
+          <p class="section__label">Сърцето</p>
+          <h2 class="section__title">LT1 V8</h2>
+          <div class="spec-numbers">
+            <div class="spec-num">
+              <div class="spec-num__value"><span data-countup="6.2">0</span><small>L</small></div>
+              <div class="spec-num__label">LT1 V8</div>
+            </div>
+            <div class="spec-num">
+              <div class="spec-num__value"><span data-countup="455">0</span> <small>к.с.</small></div>
+              <div class="spec-num__label">Мощност</div>
+            </div>
+            <div class="spec-num">
+              <div class="spec-num__value"><span data-countup="617">0</span> <small>Nm</small></div>
+              <div class="spec-num__label">Въртящ момент</div>
+            </div>
+            <div class="spec-num">
+              <div class="spec-num__value"><span data-countup="8">0</span> <small>ск.</small></div>
+              <div class="spec-num__label">Автоматик</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Borla callout -->
+      <div class="split split--reverse">
+        <div class="split__img">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoUAAsAPzmEuVOvKKWisAgB4CcJbACdACIGcsKPyOcRXDDmAAD+xfw7TxEFjy7tWDhrYekpDgAsuQPZPFFlz4nBgGvPoiCsSKtDQv6G17VOjB1ClWK4cGGw46xrMMNwumAAAA==\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/rear_borla_640w.webp 640w, img/gallery/rear_borla_960w.webp 960w, img/gallery/rear_borla_1280w.webp 1280w, img/gallery/rear_borla_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 100vw, 50vw">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/rear_borla_1920w.jpg"
+                   alt="Заден 3/4 изглед — Borla изпускателна система, четворни накрайници"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+        <div class="split__content reveal">
+          <div class="accent-line"></div>
+          <h3 class="section__title" style="font-size: clamp(1.5rem, 3.5vw, 2.2rem);">Borla &amp; K&amp;N</h3>
+          <p class="section__text">Borla изпускателна система с характерния V8 рев. K&amp;N Cold Air Intake за максимално дишане. Чистата мощност на американския мускул.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S4: ZL1 ВИЗИЯ ═══ -->
+    <section class="section--wide">
+      <!-- Front ZL1 panel -->
+      <div class="panel reveal" data-lightbox="img/gallery/front_zl1_1920w.webp">
+        <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQAwCdASoUAAsAPzmGuVOvKSWisAgB4CcJbACdAB6DPoLDb1K4APzYsp4QScRNJKVubIpC2Vhj1Jv8wi/3e41vKFjJ3/QbgaJXkXoJADMwlvWeQ1vnbFdpGMiXcrafOdmoVvnTyxOEQyF+gAA=\')">
+          <picture>
+            <source type="image/webp"
+                    srcset="img/gallery/front_zl1_640w.webp 640w, img/gallery/front_zl1_960w.webp 960w, img/gallery/front_zl1_1280w.webp 1280w, img/gallery/front_zl1_1920w.webp 1920w"
+                    sizes="100vw">
+            <img class="panel__img blur-up" loading="lazy" decoding="async"
+                 src="img/gallery/front_zl1_1920w.jpg"
+                 alt="Агресивен фронтален 3/4 изглед на Camaro с ZL1 предна броня"
+                 width="1920" height="1280">
+          </picture>
+        </div>
+        <div class="panel__caption">
+          <p class="panel__caption-title">ZL1 Визия</p>
+          <p class="panel__caption-text">Агресия в жълто и черно</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section__label reveal">Екстериор</p>
+        <h2 class="section__title reveal">ZL1 Пакет</h2>
+        <ul class="feature-list reveal">
+          <li>ZL1 преден броня и решетка</li>
+          <li>Заден дифузьор и спойлер</li>
+          <li>20" черни джанти</li>
+          <li>Жълти спирачни апарати</li>
+        </ul>
+      </div>
+
+      <!-- Detail grid: grille, headlight, sill plate -->
+      <div class="detail-grid reveal">
+        <div class="detail-grid__item">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwBACdASoUAA0APzmGu1OvKSYisAgB4CcJYgC7IE36A5/8B5ITcrH8HIgJAAD+vJA0EJdbk92o4Y0JaGElyOOofcOWrR4yOwwlAqZDBfuAAA==\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/zl1_grille_400w.webp 400w, img/gallery/zl1_grille_800w.webp 800w, img/gallery/zl1_grille_1280w.webp 1280w"
+                      sizes="(max-width: 768px) 100vw, 33vw">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/zl1_grille_1280w.jpg"
+                   alt="ZL1 емблема на решетката"
+                   width="1280" height="853">
+            </picture>
+          </div>
+        </div>
+        <div class="detail-grid__item">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASoUAA0APzmEuVOvKKWisAgB4CcJbACdMoMnSn/AeZegsag7o0jbsQAA/hk9CQE8+oLQNMsJNHvoA4DwyeUNSnfZ7YEqIIreSWDXJb6MtQ8fjunCCjdJ4ZRALMR+KYymRhu/MR0qHkewnzqLoZszfc6zg9trR4Ma9yaoAAAA\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/headlight_400w.webp 400w, img/gallery/headlight_800w.webp 800w, img/gallery/headlight_1280w.webp 1280w"
+                      sizes="(max-width: 768px) 100vw, 33vw">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/headlight_1280w.jpg"
+                   alt="Фар и ZL1 детайл отблизо"
+                   width="1280" height="853">
+            </picture>
+          </div>
+        </div>
+        <div class="detail-grid__item">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwAwCdASoUAA0APzmEuVOvKKWisAgB4CcJbAC2yBeffGEP2z7Aw4nAAP7Q775wnkrMtfuh+r4ceN6KuLJlIaJ2wKE4+2dn6dujpp4kdrcPPERkoKejnk2m+igjErDL+sjH3M3hdYoG8FDftKa5gAAA\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/sill_plate_400w.webp 400w, img/gallery/sill_plate_800w.webp 800w, img/gallery/sill_plate_1280w.webp 1280w"
+                      sizes="(max-width: 768px) 100vw, 33vw">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/sill_plate_1280w.jpg"
+                   alt="Осветен CAMARO праг"
+                   width="1280" height="853">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S5: КОКПИТ ═══ -->
+    <section class="section--wide">
+      <div class="panel reveal" data-lightbox="img/gallery/cockpit_1280w.webp">
+        <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoUAA0APzmGuVOvKSWisAgB4CcJYwAAUrPRiXswY1SjgADNpgwN166Qy1Ur1n0UQZ60BhNW5OJOAPAHcvBK++QViRX/WlA4NTrIJos20qL2aJvgbKUAAA==\')">
+          <picture>
+            <source type="image/webp"
+                    srcset="img/gallery/cockpit_400w.webp 400w, img/gallery/cockpit_800w.webp 800w, img/gallery/cockpit_1280w.webp 1280w"
+                    sizes="100vw">
+            <img class="panel__img blur-up" loading="lazy" decoding="async"
+                 src="img/gallery/cockpit_1280w.jpg"
+                 alt="Интериор на Camaro — жълти акценти, червени пръстени на уредите"
+                 width="1280" height="853">
+          </picture>
+        </div>
+        <div class="panel__caption">
+          <p class="panel__caption-title">Кокпит</p>
+          <p class="panel__caption-text">Custom жълт интериор, автоматик</p>
+        </div>
+      </div>
+
+      <div class="section reveal">
+        <p class="section__label">Интериор</p>
+        <h2 class="section__title">Пилотската кабина</h2>
+        <ul class="feature-list">
+          <li>Кожен салон</li>
+          <li>HUD дисплей</li>
+          <li>Bose аудио система</li>
+          <li>8-степенна автоматична кутия</li>
+          <li>Custom жълт интериор, съчетан с цвета на колата</li>
+          <li>Magnetic Ride Control</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S6: В ДВИЖЕНИЕ ═══ -->
+    <section class="cinema">
+      <div class="section" style="padding-bottom: 32px;">
+        <p class="section__label reveal">В добра компания</p>
+        <h2 class="section__title reveal">Заедно</h2>
+      </div>
+      <div class="cinema__inner">
+        <video class="cinema__video"
+               poster="img/poster.jpg"
+               playsinline
+               muted
+               loop
+               preload="none">
+          <source src="video/drone.mp4" type="video/mp4">
+        </video>
+        <button class="cinema__play" aria-label="Пусни видеото">
+          <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"></polygon></svg>
+        </button>
+        <div class="cinema__grain"></div>
+      </div>
+
+      <div class="panel reveal" style="margin-top: 48px;">
+        <div class="img-wrap" style="background-image:url('data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAwCdASoUAAsAPzmGuVOvKSWisAgB4CcJZAC7ADJ8WdoAAP7lZ3kZjmaetm/Aq81APlAkOkPNjgLctnfNQlIZg54mXqY8j822RX8Y9XzgQ3+qp00j+c6pX1AAAA==');background-size:cover">
+          <picture>
+            <source type="image/webp"
+                    srcset="img/gallery/duo_640w.webp 640w,
+                            img/gallery/duo_960w.webp 960w,
+                            img/gallery/duo_1280w.webp 1280w,
+                            img/gallery/duo_1920w.webp 1920w"
+                    sizes="100vw">
+            <img class="blur-up" src="img/gallery/duo_1920w.jpg"
+                 alt="Chevrolet Camaro и Kia Sorento — заедно"
+                 width="1920" height="1080" loading="lazy" decoding="async">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S7: НОЩЕН ХИЩНИК ═══ -->
+    <section class="section--wide night-section">
+      <div class="section" style="padding-bottom: 32px;">
+        <p class="section__label reveal">Нощен хищник</p>
+        <h2 class="section__title reveal">Когато слънцето залезе</h2>
+      </div>
+
+      <div class="panel reveal" data-lightbox="img/gallery/night_taillights_1920w.webp">
+        <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAAsAPzmEuVOvKKWisAgB4CcJYgC7ACHfJbeXXgAA/ujgdddOJQMldmaNJ3f8QZbUr4XUhlxtax4iWEsvmMAgiKJoxgomjBZkAA==\')">
+          <picture>
+            <source type="image/webp"
+                    srcset="img/gallery/night_taillights_640w.webp 640w, img/gallery/night_taillights_960w.webp 960w, img/gallery/night_taillights_1280w.webp 1280w, img/gallery/night_taillights_1920w.webp 1920w"
+                    sizes="100vw">
+            <img class="panel__img blur-up" loading="lazy" decoding="async"
+                 src="img/gallery/night_taillights_1920w.jpg"
+                 alt="Задни светлини на Camaro в тъмнината"
+                 width="1920" height="1280">
+          </picture>
+        </div>
+      </div>
+
+      <div class="panel reveal" data-lightbox="img/gallery/night_front_1920w.webp">
+        <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APzmGuVQvKSWjMAgB4CcJZACdAB36j6VmXS3Bvc4AAP7jS0YNIiKf5gZj3spYq6B0GnjSu/BaYNazuUO1I7w4Gt1zUR8a6dPU6gAAAA==\')">
+          <picture>
+            <source type="image/webp"
+                    srcset="img/gallery/night_front_640w.webp 640w, img/gallery/night_front_960w.webp 960w, img/gallery/night_front_1280w.webp 1280w, img/gallery/night_front_1920w.webp 1920w"
+                    sizes="100vw">
+            <img class="panel__img blur-up" loading="lazy" decoding="async"
+                 src="img/gallery/night_front_1920w.jpg"
+                 alt="Camaro нощен 3/4 изглед, коледни светлини на фона"
+                 width="1920" height="1280">
+          </picture>
+        </div>
+      </div>
+
+      <div class="panel reveal" data-lightbox="img/gallery/night_christmas_1920w.webp">
+        <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUAA0APzmEulOvKKWisAgB4CcJQBhQBC2WT/wvVkrg60EAAP7o3vyHaZwFWybo0uBy3QvQ8dUScoEMoEv1GhIU4q0atnjnXeNKfmluj/Z35K9D+shnee0SeAA=\')">
+          <picture>
+            <source type="image/webp"
+                    srcset="img/gallery/night_christmas_640w.webp 640w, img/gallery/night_christmas_960w.webp 960w, img/gallery/night_christmas_1280w.webp 1280w, img/gallery/night_christmas_1920w.webp 1920w"
+                    sizes="100vw">
+            <img class="panel__img blur-up" loading="lazy" decoding="async"
+                 src="img/gallery/night_christmas_1920w.jpg"
+                 alt="Camaro с коледна атмосфера, нощна сцена"
+                 width="1920" height="1280">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S8: ФАКТИ ═══ -->
+    <section class="section">
+      <p class="section__label reveal">Факти</p>
+      <h2 class="section__title reveal">Какво трябва да знаеш</h2>
+
+      <div class="facts-grid reveal">
+        <div class="facts-col">
+          <h3>Данни</h3>
+          <dl>
+            <dt>Година</dt>
+            <dd>2017</dd>
+            <dt>Пробег</dt>
+            <dd>90 000 км</dd>
+            <dt>Двигател</dt>
+            <dd>6.2L V8 LT1</dd>
+            <dt>Мощност</dt>
+            <dd>455 к.с.</dd>
+            <dt>Скорости</dt>
+            <dd>8 автоматик</dd>
+            <dt>Задвижване</dt>
+            <dd>Задно</dd>
+          </dl>
+        </div>
+        <div class="facts-col">
+          <h3>Особености</h3>
+          <ul class="facts-list">
+            <li>Гаражен автомобил</li>
+            <li>Borla изпускателна система</li>
+            <li>K&amp;N Cold Air Intake</li>
+            <li>Custom интериор, съчетаващ се с цвета на колата</li>
+            <li>Magnetic Ride Control амортисьори</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S9: ГАЛЕРИЯ ═══ -->
+    <section class="section--wide">
+      <div class="section section--compact">
+        <p class="section__label reveal">Галерия</p>
+        <h2 class="section__title reveal">Всеки ъгъл</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/rear_center_1920w.webp">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAwCdASoUAAsAPzmGuVOvKSWisAgB4CcJZgC06BxWDEjCQostwAD6nm8tZMHQdlbzS0GRBtaDR9UDON8aVLWJdux5Q+cHgVYWjB2sEZYFgV4X7uZ5AAAA\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/rear_center_640w.webp 640w, img/gallery/rear_center_960w.webp 960w, img/gallery/rear_center_1280w.webp 1280w, img/gallery/rear_center_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/rear_center_1920w.jpg"
+                   alt="Заден център, задни светлини, Borla накрайници"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/rear_quarter_1920w.webp">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoUAAsAPzmEuVOvKKWisAgB4CcJbACdABmSbkJfXhP/SvAAAPjde9OWcN08BQZoNhRWKqAwJZuPRqnUhchE1byySwyH3I1MhIyaFtl+TnGv9tY72kddTkuy/G4KZ9SN1c5/mybYVT2shAfQ5eACf4AA\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/rear_quarter_640w.webp 640w, img/gallery/rear_quarter_960w.webp 960w, img/gallery/rear_quarter_1280w.webp 1280w, img/gallery/rear_quarter_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/rear_quarter_1920w.jpg"
+                   alt="Заден 3/4 изглед, спойлер, задни светлини"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/side_city_1920w.webp">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQAwCdASoUAA4APzmEuVOvKKWisAgB4CcJbAC7IDZCC4Uf4ch9xiAA+joBJ9l1uEGf+STIgAOiLOdduUeNuEA68aSD0UC+fEHTFYmuwOCmiWPNApxWyXsx5pVNZjBTIWvqFiZxNsUPNjK8QXRw/1UjRHgQAAAA\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/side_city_640w.webp 640w, img/gallery/side_city_960w.webp 960w, img/gallery/side_city_1280w.webp 1280w, img/gallery/side_city_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/side_city_1920w.jpg"
+                   alt="Страничен профил, град на фона"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/side_mountains_1920w.webp">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAwCdASoUAA0APzmGuVOvKSWisAgB4CcJaACdACPyLb9pPgaPd8dGAP7U5g+0c/3ZGHPdJ8gHaEEW8H1R2ELQWfJj4WXtNRjiD1GWcfDD+Nxkqjp4kQaeIyh8UkvYdD5aTxXGD6AAAA==\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/side_mountains_640w.webp 640w, img/gallery/side_mountains_960w.webp 960w, img/gallery/side_mountains_1280w.webp 1280w, img/gallery/side_mountains_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/side_mountains_1920w.jpg"
+                   alt="Страничен профил, планини и облаци"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/rear_borla_1920w.webp">
+          <div class="img-wrap" style="background-image:url('data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoUAAsAPzmEuVOvKKWisAgB4CcJbACdACIGcsKPyOcRXDDmAAD+xfw7TxEFjy7tWDhrYekpDgAsuQPZPFFlz4nBgGvPoiCsSKtDQv6G17VOjB1ClWK4cGGw46xrMMNwumAAAA==')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/rear_borla_640w.webp 640w, img/gallery/rear_borla_960w.webp 960w, img/gallery/rear_borla_1280w.webp 1280w, img/gallery/rear_borla_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/rear_borla_1920w.jpg"
+                   alt="Заден 3/4, Borla изпускателна система"
+                   width="1920" height="1080">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/duo_1920w.webp">
+          <div class="img-wrap" style="background-image:url('data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAwCdASoUAAsAPzmGuVOvKSWisAgB4CcJZAC7ADJ8WdoAAP7lZ3kZjmaetm/Aq81AeUg7jNEBpdzGDE5StZQoIFZv3zU79QnjCwsjfLA9WP1x+Acgpz0RM0AAAA=')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/duo_640w.webp 640w, img/gallery/duo_960w.webp 960w, img/gallery/duo_1280w.webp 1280w, img/gallery/duo_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/duo_1920w.jpg"
+                   alt="Chevrolet Camaro и Kia Sorento — заедно"
+                   width="1920" height="1080">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/trio_1920w.webp">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAwCdASoUAA0APzmEulOvKKWisAgB4CcJQBOgAj1dK33MIAD+vA193F3kCnxjYOz+wHJwTLrVbdFdMsGbNEOdZykFmIlZicbT8wOJJRFNiH2yOugsWw0D6AEoyoPZycFrWBa4kAA=\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/trio_640w.webp 640w, img/gallery/trio_960w.webp 960w, img/gallery/trio_1280w.webp 1280w, img/gallery/trio_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/trio_1920w.jpg"
+                   alt="Три Camaro-та заедно, жълтото в центъра"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/profile_rooftop_1920w.webp">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAwCdASoUAAsAPzmGuVOvKSWisAgB4CcJaACdACBTZWSOwFFrCAAAyj3zuuYYQbNKb7N0wVnKGfEFnJNiJJU2xEfl28ha/HuXkiaKwBQW/zPKPJOeRP1i3OaAAA==\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/profile_rooftop_640w.webp 640w, img/gallery/profile_rooftop_960w.webp 960w, img/gallery/profile_rooftop_1280w.webp 1280w, img/gallery/profile_rooftop_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/profile_rooftop_1920w.jpg"
+                   alt="Страничен профил, покрив, златист час"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/front_zl1_1920w.webp">
+          <div class="img-wrap" style="background-image:url('data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQAwCdASoUAAsAPzmGuVOvKSWisAgB4CcJbACdAB6DPoLDb1K4APzYsp4QScRNJKVubIpC2Vhj1Jv8wi/3e41vKFjJ3/QbgaJXkXoJADMwlvWeQ1vnbFdpGMiXcrafOdmoVvnTyxOEQyF+gAA=')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/front_zl1_640w.webp 640w, img/gallery/front_zl1_960w.webp 960w, img/gallery/front_zl1_1280w.webp 1280w, img/gallery/front_zl1_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/front_zl1_1920w.jpg"
+                   alt="ZL1 преден изглед"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+                <div class="gallery-grid__item reveal" data-lightbox="img/gallery/night_front_1920w.webp">
+          <div class="img-wrap" style="background-image:url(\'data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAA0APzmGuVQvKSWjMAgB4CcJZACdAB36j6VmXS3Bvc4AAP7jS0YNIiKf5gZj3spYq6B0GnjSu/BaYNazuUO1I7w4Gt1zUR8a6dPU6gAAAA==\')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/night_front_640w.webp 640w, img/gallery/night_front_960w.webp 960w, img/gallery/night_front_1280w.webp 1280w, img/gallery/night_front_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/night_front_1920w.jpg"
+                   alt="Нощен фронтален изглед"
+                   width="1920" height="1280">
+            </picture>
+          </div>
+        </div>
+
+        <div class="gallery-grid__item reveal" data-lightbox="img/gallery/night_christmas_1920w.webp">
+          <div class="img-wrap" style="background-image:url('data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUAA0APzmEulOvKKWisAgB4CcJQBhQBC2WT/wvVkrg60EAAP7o3vyHaZwFWybo0uBy3QvQ8dUScoEMoEv1GhIU4q0atnjnXeNKfmluj/Z35K9D+shnee0SeAA=')">
+            <picture>
+              <source type="image/webp"
+                      srcset="img/gallery/night_christmas_640w.webp 640w, img/gallery/night_christmas_960w.webp 960w, img/gallery/night_christmas_1280w.webp 1280w, img/gallery/night_christmas_1920w.webp 1920w"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 400px">
+              <img class="blur-up" loading="lazy" decoding="async"
+                   src="img/gallery/night_christmas_1920w.jpg"
+                   alt="Коледна атмосфера, нощна снимка"
+                   width="1920" height="1277">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="warning-stripe"></div>
+
+    <!-- ═══ S10: ЦЕНАТА ═══ -->
+    <section class="price reveal">
+      <p class="section__label">Цената</p>
+      <div class="price__amount"><small>&euro;</small>25 000</div>
+      <a href="tel:+359999996995" class="cta-btn">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.1.31.03.66-.25 1.02l-2.2 2.2z"/></svg>
+        Обади се
+      </a>
+      <p class="price__phone">+359 999 996 995</p>
+      <a href="https://www.mobile.bg/obiava-11742971850996995-chevrolet-camaro-6-2-2ss-zl1-pack" class="price__secondary" target="_blank" rel="noopener">Виж обявата в mobile.bg &rarr;</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="footer__disclaimer">Обявата е информативна и не представлява оферта по смисъла на Закона за задълженията и договорите. Посочените характеристики са базирани на информация от производителя и собственика. Пробегът е актуален към момента на публикуване.</p>
+  </footer>
+
+  <!-- Sticky CTA (mobile) -->
+  <div class="sticky-cta" aria-hidden="true">
+    <a href="tel:+359999996995" class="sticky-cta__link">
+      <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.1.31.03.66-.25 1.02l-2.2 2.2z"/></svg>
+      Обади се
+    </a>
+  </div>
+
+  <script src="js/camaro.js" defer></script>
+</body>
+</html>

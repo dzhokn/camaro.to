@@ -1,0 +1,9 @@
+tools/__pycache__/
+img/manifest.json
+desktop.ini
+*.log
+*.orig
+.DS_Store
+Thumbs.db
+img/gallery/rear_camaro_*
+img/hero/hero_mobile_1920w.*
