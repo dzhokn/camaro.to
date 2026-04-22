@@ -292,9 +292,10 @@
   // ── Sticky CTA ────────────────────────────────────────────
   function initStickyCta() {
     const stickyCta = document.querySelector('.sticky-cta');
+    const stickyCtaTop = document.querySelector('.sticky-cta-top');
     const ctaSection = document.querySelector('.price');
     const hero = document.querySelector('.hero');
-    if (!stickyCta) return;
+    if (!stickyCta && !stickyCtaTop) return;
 
     let ctaVisible = false;
     let pastHero = false;
@@ -319,9 +320,11 @@
 
     function updateSticky() {
       if (pastHero && !ctaVisible) {
-        stickyCta.classList.add('sticky-cta--visible');
+        if (stickyCta) stickyCta.classList.add('sticky-cta--visible');
+        if (stickyCtaTop) stickyCtaTop.classList.add('sticky-cta-top--visible');
       } else {
-        stickyCta.classList.remove('sticky-cta--visible');
+        if (stickyCta) stickyCta.classList.remove('sticky-cta--visible');
+        if (stickyCtaTop) stickyCtaTop.classList.remove('sticky-cta-top--visible');
       }
     }
   }

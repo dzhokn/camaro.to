@@ -8,14 +8,14 @@
   <title>BUMBLEBEE | Camaro 6.2 V8 2SS ZL1</title>
 
   <!-- SEO -->
-  <meta name="description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 визуален пакет · Borla · €29 999 · София">
+  <meta name="description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 визуален пакет · Borla · €29 900 · София">
   <link rel="canonical" href="https://camaro.to/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://camaro.to/">
   <meta property="og:title" content="BUMBLEBEE | Chevrolet Camaro 6.2 V8 2SS ZL1">
-  <meta property="og:description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 · Borla · €29 999">
+  <meta property="og:description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 · Borla · €29 900">
   <meta property="og:image" content="https://camaro.to/img/og-image.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
@@ -27,7 +27,7 @@
   <!-- Twitter/X Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BUMBLEBEE | Chevrolet Camaro 6.2 V8 2SS ZL1">
-  <meta name="twitter:description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 · Borla · €29 999">
+  <meta name="twitter:description" content="2017 Chevrolet Camaro 2SS · 6.2L V8 · 455 к.с. · ZL1 · Borla · €29 900">
   <meta name="twitter:image" content="https://camaro.to/img/og-image.jpg">
   <meta name="twitter:image:alt" content="Жълт Chevrolet Camaro 2SS с ZL1 пакет - фронтален изглед">
 
@@ -648,6 +648,37 @@
       color: var(--yellow);
     }
 
+    /* ── Sticky Top CTA (mobile) ────────────────────── */
+    .sticky-cta-top {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9000;
+      background: var(--surface);
+      border-bottom: 1px solid rgba(255,209,0,0.2);
+      padding: 10px 24px;
+      padding-top: calc(10px + env(safe-area-inset-top, 0px));
+      transform: translateY(-100%);
+      transition: transform 0.3s ease;
+      display: none;
+    }
+    .sticky-cta-top--visible {
+      transform: translateY(0);
+    }
+    .sticky-cta-top__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--yellow);
+      text-decoration: none;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
     /* ── Sticky CTA (mobile) ─────────────────────────── */
     .sticky-cta {
       position: fixed;
@@ -887,6 +918,7 @@
       .cta-btn { font-size: 1.2rem; padding: 16px 36px; }
 
       .sticky-cta { display: block; }
+      .sticky-cta-top { display: block; }
 
       footer { padding: 40px 16px; }
       .footer__disclaimer { font-size: 0.68rem; }
@@ -1506,13 +1538,13 @@
     <!-- ═══ S10: ЦЕНАТА ═══ -->
     <section class="price reveal">
       <p class="section__label">Цената</p>
-      <div class="price__amount"><small>&euro;</small>29 999</div>
+      <div class="price__amount"><small>&euro;</small>29 900</div>
       <a href="tel:+359877333804" class="cta-btn">
         <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.1.31.03.66-.25 1.02l-2.2 2.2z"/></svg>
         Обади се
       </a>
       <p class="price__phone">+359 877 333 804</p>
-      <a href="https://www.mobile.bg/obiava-11742971850996995-chevrolet-camaro-6-2-2ss-zl1-pack" class="price__secondary" target="_blank" rel="noopener">Виж обявата в mobile.bg &rarr;</a>
+      <a href="https://www.mobile.bg/obiava-11772640016274402-chevrolet-camaro-ss-6-2-v8-zl1-pack" class="price__secondary" target="_blank" rel="noopener">Виж обявата в mobile.bg &rarr;</a>
     </section>
 
   </main>
@@ -1520,6 +1552,13 @@
   <footer>
     <p class="footer__disclaimer">Обявата е информативна и не представлява оферта по смисъла на Закона за задълженията и договорите. Посочените характеристики са базирани на информация от производителя и собственика. Пробегът е актуален към момента на публикуване.</p>
   </footer>
+
+  <!-- Sticky Top CTA (mobile) - mobile.bg -->
+  <div class="sticky-cta-top" aria-hidden="true">
+    <a href="https://www.mobile.bg/obiava-11772640016274402-chevrolet-camaro-ss-6-2-v8-zl1-pack" class="sticky-cta-top__link" target="_blank" rel="noopener">
+      Технически данни и снимки в mobile.bg &rarr;
+    </a>
+  </div>
 
   <!-- Sticky CTA (mobile) -->
   <div class="sticky-cta" aria-hidden="true">
